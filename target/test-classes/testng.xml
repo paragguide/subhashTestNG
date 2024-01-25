@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="https://www.amazon.in/" />
+  <parameter name="reportname" value="AmazonReport" />
+  <parameter name="obj" value="dest1" />
+  <parameter name="wbname" value="AmazonLogin.xlsx" />
+  <parameter name="sheetname" value="Sheet1" />
+  <parameter name="afilename" value="aimg"/>
+  <parameter name="bfilename" value="bimg" />
+  <classes>
+      <class name="testcases.LoginTest"/>
+      <class name="testcases.ShopTest" /> 
+  </classes>
+            
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

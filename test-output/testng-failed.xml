@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="reportname" value="AmazonReport"/>
+    <parameter name="obj" value="dest1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sheetname" value="Sheet1"/>
+    <parameter name="url" value="https://www.amazon.in/"/>
+    <parameter name="wbname" value="AmazonLogin.xlsx"/>
+    <classes>
+      <class name="testcases.ShopTest">
+        <methods>
+          <include name="makeWBConnection"/>
+          <include name="takeScreenShot2"/>
+          <include name="search"/>
+          <include name="closeWBConnection"/>
+          <include name="takeScreenShot1"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testcases.ShopTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="makeWBConnection"/>
+          <include name="takeScreenShot2"/>
+          <include name="closeWBConnection"/>
+          <include name="login"/>
+          <include name="takeScreenShot1"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

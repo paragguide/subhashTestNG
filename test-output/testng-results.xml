@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-19T19:07:25 IST" name="Suite" finished-at="2024-01-19T19:08:27 IST" duration-ms="62024">
+    <groups>
+    </groups>
+    <test started-at="2024-01-19T19:07:25 IST" name="Test" finished-at="2024-01-19T19:08:27 IST" duration-ms="62024">
+      <class name="testcases.ShopTest">
+        <test-method is-config="true" signature="makeWBConnection(java.lang.String,java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:13 IST" name="makeWBConnection" finished-at="2024-01-19T19:08:13 IST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmazonLogin.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeWBConnection -->
+        <test-method is-config="true" signature="takeScreenShot1(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:13 IST" name="takeScreenShot1" finished-at="2024-01-19T19:08:13 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot1 -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:13 IST" name="search" data-provider="product" finished-at="2024-01-19T19:08:23 IST" duration-ms="9717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sun glasses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="takeScreenShot2(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:23 IST" name="takeScreenShot2" finished-at="2024-01-19T19:08:23 IST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot2 -->
+        <test-method is-config="true" signature="takeScreenShot1(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:23 IST" name="takeScreenShot1" finished-at="2024-01-19T19:08:24 IST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot1 -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:24 IST" name="search" data-provider="product" finished-at="2024-01-19T19:08:26 IST" duration-ms="2589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="takeScreenShot2(java.lang.String)[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:26 IST" name="takeScreenShot2" finished-at="2024-01-19T19:08:27 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot2 -->
+        <test-method is-config="true" signature="closeWBConnection()[pri:0, instance:testcases.ShopTest@59505b48]" started-at="2024-01-19T19:08:27 IST" name="closeWBConnection" finished-at="2024-01-19T19:08:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWBConnection -->
+      </class> <!-- testcases.ShopTest -->
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:07:25 IST" name="openBrowser" finished-at="2024-01-19T19:07:29 IST" duration-ms="3875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AmazonReport]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dest1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="makeWBConnection(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:07:29 IST" name="makeWBConnection" finished-at="2024-01-19T19:07:30 IST" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AmazonLogin.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeWBConnection -->
+        <test-method is-config="true" signature="takeScreenShot1(java.lang.String)[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:07:30 IST" name="takeScreenShot1" finished-at="2024-01-19T19:07:31 IST" duration-ms="684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot1 -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:07:31 IST" name="login" data-provider="loginData" finished-at="2024-01-19T19:08:13 IST" duration-ms="42119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paragguide@yahoo.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RMinfotech]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="takeScreenShot2(java.lang.String)[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:08:13 IST" name="takeScreenShot2" finished-at="2024-01-19T19:08:13 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aimg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot2 -->
+        <test-method is-config="true" signature="closeWBConnection()[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:08:13 IST" name="closeWBConnection" finished-at="2024-01-19T19:08:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWBConnection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.LoginTest@2dc54ad4]" started-at="2024-01-19T19:08:27 IST" name="closeBrowser" finished-at="2024-01-19T19:08:27 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
